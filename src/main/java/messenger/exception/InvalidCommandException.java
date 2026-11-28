@@ -1,0 +1,8 @@
+package messenger.exception;
+
+public class InvalidCommandException extends Exception {
+
+    public InvalidCommandException(String message) {
+        super("Unknown command: " + message);
+    }
+}
